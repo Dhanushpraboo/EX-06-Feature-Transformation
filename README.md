@@ -122,8 +122,8 @@ df
 
 df.skew()
 
-# Function Transformation 
-# Log Transformation 
+Function Transformation 
+Log Transformation 
 np.log(df["Highly Positive Skew"])
 np.reciprocal(df["Moderate Positive Skew"])
 np.sqrt(df["Highly Positive Skew"])
@@ -140,7 +140,7 @@ df["Highly Negative Skew_yeojohnson"],parameters=stats.yeojohnson(df["Highly Neg
 df
 
 df.skew()
-# Quantile Transformation 
+Quantile Transformation 
 from sklearn.preprocessing import QuantileTransformer
 qt=QuantileTransformer(output_distribution ='normal')
 
