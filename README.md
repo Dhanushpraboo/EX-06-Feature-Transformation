@@ -19,8 +19,8 @@ Apply Feature Transformation techniques to all the feature of the data set
 Save the data to the file
 
 # CODE
-Developed by : Naveen Kumar.V
-Regsiter no : 212221230068
+Developed by : S DHANUSH PRABOO
+Regsiter no : 212221230019
 
 # Titanic dataset:
 
