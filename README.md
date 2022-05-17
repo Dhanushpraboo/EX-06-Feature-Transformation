@@ -67,18 +67,18 @@ be1=BinaryEncoder()
 df['Sex']=be1.fit_transform(df[["Sex"]])
 df
 
-# Function Transformation:
+ #Function Transformation:
 
-# Log Tranformation:
+#Log Tranformation:
 np.log(df["Age"])
 
-# Reciprocal Transformation
+#Reciprocal Transformation
 np.reciprocal (df[["Fare"]])
 
-# sqrt transformation
+#sqrt transformation
 np.sqrt(df["Embarked"])
 
-# power transformation
+#power transformation
 df["Age_boxcox"],parameters=stats.boxcox(df["Age"])
 df
 df["Pclass_boxcox"],parameters=stats.boxcox(df["Pclass"])
